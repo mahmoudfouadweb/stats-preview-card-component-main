@@ -26,6 +26,9 @@
 
 --FONT-SIZE:
 
+15PX / 
+
+
 ***  Percentage of user's browser font-size setting ***
   10PX / 16PX (DEFAULT CLINT'S VALUE) * 100 = 62.5%
   GENERAL FONT-SIZE: 62.5% === 10PX 
@@ -40,13 +43,33 @@
 -MEDIUM: NONE
 -BOLD: 700
 
+
+
 **********************************************************************
 **********************************************************************/
 
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* more details very first cheat */
   font-size: 62.5%;
 }
 
-p {
-  font-size: 2.4rem;
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  background-color: #090b1a;
+}
+
+.container {
+  max-width: 144rem;
+  padding: 0 auto;
+  margin: 0 auto;
+  background-color: #1b1938;
 }
