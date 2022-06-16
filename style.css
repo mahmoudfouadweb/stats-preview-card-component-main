@@ -67,9 +67,26 @@ body {
   background-color: #090b1a;
 }
 
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .container {
   max-width: 144rem;
-  padding: 0 auto;
-  margin: 0 auto;
+  /* padding: 0 auto; */
+  margin: 22rem auto;
   background-color: #1b1938;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-2--col {
+  grid-template-columns: 2fr 1fr;
+}
+
+.section-heading {
+  font-size: 4.8rem;
 }
